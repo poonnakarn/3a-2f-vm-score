@@ -2,7 +2,7 @@ function About() {
   return (
     <>
       <div className='mb-4'>
-        <h1 className='text-4xl mb-4'>About 2A-2F-VM Score</h1>
+        <h1 className='text-4xl mb-4'>About 3A-2F-VM Score</h1>
         <div className='mb-4 text-lg font-light'>
           <p>A (ADHD; Attention Deficit Hyperactivity Disorder): +2 pt</p>
           <p>A (Antidepressant use): -2 pt</p>
