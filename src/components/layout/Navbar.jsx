@@ -29,7 +29,7 @@ function Navbar({ title }) {
 }
 
 Navbar.defaultProps = {
-  title: '2A-2F-VM Calc',
+  title: '3A-2F-VM Calc',
 }
 Navbar.propTypes = {
   title: PropTypes.string,
