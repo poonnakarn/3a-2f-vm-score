@@ -23,12 +23,11 @@ function ScoreItem({ score: { text, point } }) {
       <div className='flex-row space-x-4 items-center card-body'>
         <div className='text-base text-right font-light'>{text}</div>
         <button
-          className={isToggle ? 'btn btn-accent' : 'btn btn-accent btn-outline'}
-          // className={
-          //   isToggle
-          //     ? 'bg-teal-500 text-white font-bold py-2 px-4 rounded outline outline-offset-2 outline-0 outline-teal-500'
-          //     : 'bg-opacity-100 text-white font-base py-2 px-4 rounded outline outline-offset-2 outline-1 outline-teal-500'
-          // }
+          className={
+            isToggle
+              ? 'btn btn-accent'
+              : 'btn btn-accent bg-opacity-0 hover:bg-opacity-0 text-teal-500'
+          }
           onClick={handleToggle}
         >
           {isToggle ? 'Yes' : 'No'}
